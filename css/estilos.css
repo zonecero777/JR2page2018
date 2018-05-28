@@ -516,6 +516,13 @@ a{
   text-decoration: none;
   color:#fff;
 }
+.wrapp_galeria{
+  background: #ebd5bd;
+  text-align: center;
+  margin: 0 auto;
+  padding: 56px 0;  
+  width: 100%;
+}
 @media screen and (max-width: 1117px){
   .cajaLarga2{
     width: 100%;
