@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es_Es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<title>Jesus Rey de Reyes</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,700i,800,900,900i" rel="stylesheet">
+	<link href='css/style.css' type='text/css' rel='stylesheet' media='all' />
+	<link rel="shortcut icon" href="images/favicon.png">
+	<script type='text/javascript' src='js/jquery.js'></script>
+</head>
+<body id="body">
+	<section class="portada">
+		<header id="header" class="header contenedor">
+			<div class="contenedor-nav">
+				<figure class="logotipo">
+					<img src="images/logotipo2.png" alt="" width="85px">
+				</figure>	
+				<span id="burguer-button" class="burguer-button icon-menu"></span>
+				<nav  class="menu" id="menu"> <!-- menu -->
+					<ul>
+						<li><a href="index.html" style="text-decoration:underline;">INICIO</a></li>
+						<li><a href="galeria.html">GALERIA</a></li>
+						<li><a href="catalogo.html">CATALOGO</a></li>
+						<li><a href="https://www.tiendaonline.jr2moda.com/" target="_blank">TIENDA ONLINE</a></li>
+						<li><a href="locales.html">LOCALES</a></li>
+						<li><a href="contacto.html">CONTACTO</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	</section>
+	<div id="slideshow">
+	    <div class="iosSlider zn_slideshow">
+	        <div class="slider">
+	        	<div class="item">
+	                <img src="img/slide1.jpg"/>
+	            </div>
+	            <div class="item">
+	                <img src="img/slideshop2.png"/>
+	            </div>
+	        </div>
+	        <div class="prev">
+	        </div>
+	        <div class="next">
+	        </div>
+	    </div><!-- end iosSlider -->
+	    <div class="selectorsBlock bullets">
+	        <div class="selectors">
+	            <div class="item first selected"></div>
+	            <div class="item"></div>
+	            <div class="item"></div>
+	        </div>
+	    </div>
+	</div>
+	<section class="wrap">
+		<div class="midcl">
+			<div class="contface">
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJR2-147611265581433%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			</div>
+			<div class="contletra">
+				<a href="https://www.facebook.com/JR2-147611265581433/">
+					<img src="img/baner.png" alt="" >
+				</a>
+			</div>
+		</div>
+		<div class="cajasprimero">
+			<div class="primeroizq"></div>
+			<div class="primerodrc"></div>
+		</div>
+	</section>
+		<div class="cajaLarga">
+			<div class="cajaLarga2">
+				<div class="box1">
+					<p>SHOP</p>
+				</div>
+				<div class="box2">
+					<p>Es facil, simple y seguro</p>
+				</div>
+				<div class="box3">
+					<a href="https://www.tiendaonline.jr2moda.com/">COMPRAR</a>
+				</div>
+			</div>
+		</div>
+	<section class="wrap2">
+		<div id="cajasmedio">
+			<div class="medioarriba">
+				<div class="izquierda">
+					<p style="font-family:monserrat;font-size: 47px;letter-spacing: 10px;margin:14px 0;">NEW SEASON</p>
+					<p>WINTER LOOKS 18</p>
+					<p>URBAN STYLE</p>
+				</div>
+				<div class="derecha">
+					<img src="images/medioderecha1.jpg" alt="">
+				</div>
+			</div>
+			<div class="medioabajo">
+				<div class="izquierda">
+					<img src="images/medioderecha2.jpg" alt="">
+				</div>
+				<div class="derecha2">
+					<p class="Dletra1">ENVIOS</p>
+					<p class="Dletra2">A TODO EL PAIS</p>
+					<p class="Dletra3">Te enviamos el pedido estes donde estes, por medio del expreso que elijas. Ante cualquier duda mira nuestra nuestro sitio de preguntas frecuentes</p>
+					<div class="btnfaq"><a href="faq.html">FAQ</a></div>
+				</div>
+			</div>
+		</div> 
+	</section>
+	<!--<div style="margin: 0; text-align:center;">
+		<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D464120747263815%26id%3D147611265581433&width=800" width="800" height="620" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>-->
+
+<script type='text/javascript' src='js/jquery.iosslider.min.js'></script>
+<script type='text/javascript' src='js/jquery.iosslider.kalypso.js'></script>
+<script type="text/javascript">// PREPARE THE NEWSLETTER AND SEND DATA TO MAILCHIMP
+jQuery('.iosSlider').each(function(){
+	jQuery(this).iosSlider({
+		snapToChildren: true,
+		desktopClickDrag: true,
+		keyboardControls: true,
+		autoSlideTimer: 5000,
+		navNextSelector: jQuery(this).closest('.iosSlider').find('.next'),
+		navPrevSelector: jQuery(this).closest('.iosSlider').find('.prev'),
+		navSlideSelector: jQuery('.selectors .item'),
+		scrollbar: true,
+		scrollbarContainer: '#slideshow .scrollbarContainer',
+		scrollbarMargin: '0',
+		scrollbarBorderRadius: '4px',
+		onSlideComplete: slideComplete,
+		onSliderLoaded: function(args){
+			var otherSettings = {
+				hideControls : true, // Bool, if true, the NAVIGATION ARROWS will be hidden and shown only on mouseover the slider
+				hideCaptions : false  // Bool, if true, the CAPTIONS will be hidden and shown only on mouseover the slider
+			}
+			sliderLoaded(args, otherSettings);
+		},
+		onSlideChange: slideChange,
+		keyboardControls: true,
+		infiniteSlider: true,
+		autoSlide: true
+		});
+	});
+	</script>
+	</body>
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+	</style>
+	<footer id="footer">
+		<section class="wrapp-footer">
+			<div>
+				<img src="images/logotipo2.png" alt="" width="100px">
+			</div>
+			<div>
+				<p>Copyright © 2018 Azure Studio. All Rights Reserved</p>
+			</div>
+			<div class="redes-sociales">
+				<div>
+					<a href="https://www.facebook.com/JR2-147611265581433/?fref=ts" target="_blank"><img src="images/face-icon.svg" alt=""></a>
+				</div>
+				<div>
+					<a href=""><img src="images/inst-icon.svg" alt=""></a>
+				</div>
+				<div>
+					<a href=""><img src="images/youtube-icon.svg" alt=""></a>
+				</div>
+			</div>
+		</section>
+		<script>
+			var consulta = window.matchMedia('(max-width: 500px)');
+			consulta.addListener(mediaQuery);
+
+			var $burguerButton = document.getElementById('burguer-button');
+			var $menu = document.getElementById('menu');
+      		function toggleMenu(){
+        		$menu.classList.toggle('active')
+        	};
+        	function showMenu(){
+        		$menu.classList.add('active')
+        	};
+        	function hideMenu(){
+        		$menu.classList.remove('active')
+        	};
+
+			function mediaQuery() {
+				if (consulta.matches) {
+					console.log('se cumplio la condicion');
+					$burguerButton.addEventListener('touchstart', toggleMenu);
+				} else {
+					$burguerButton.removeEventListener ('touchstart', toggleMenu);
+					console.log('no nada amego, todo mal');
+				}																						         
+			}
+			mediaQuery();
+			
+		</script>
+	</footer>
+</html>

@@ -1,0 +1,272 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #fbf6e7;
+    font-weight: normal !important;
+    line-height: 1.25;
+    font-family: 'CrimsonItalic', Georgia, Times, serif;
+}
+.row .twelve.columns {
+    width: 100%;
+}
+#content 
+{
+    margin-top: 2em;
+    padding-bottom: 0em;
+    position: relative;
+    top: 2em;
+    margin-bottom: 3em;
+}
+#contactform p {
+    display: block;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+#contactform p {
+    margin-bottom: 8px;
+    height: 33%;
+}
+#contactform p, #contactform p label {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px !important;
+}
+#contactform textarea {
+    height: 230px;
+}
+input.input-text, textarea {
+    font-size: 13px;
+    padding: 4px 3px 2px;
+    outline: none !important;
+    background: #fff;
+}
+#contactform input, #contactform textarea, #commentform input, #commentform textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0;
+    width:80%;
+    padding: 20px;
+    font-size: 1em;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.85);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#ffffff);
+    zoom: 1;
+    color: #aaa;
+    text-shadow: 0px 0px 1px rgba(255,255,255,1.0);
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -webkit-box-shadow: 0px 0px 1px rgba(255,255,255,0.3), 0px 0px 1px rgba(0,0,0,0.03), 2px 2px 1px rgba(0,0,0,0.03), 0px 0px 10px rgba(0,0,0,0.03), inset 1px 1px 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 1px rgba(255,255,255,0.3), 0px 0px 1px rgba(0,0,0,0.03), 2px 2px 1px rgba(0,0,0,0.03), 0px 0px 10px rgba(0,0,0,0.03), inset 1px 1px 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 1px rgba(255,255,255,0.3), 0px 0px 1px rgba(0,0,0,0.03), 2px 2px 1px rgba(0,0,0,0.03), 0px 0px 10px rgba(0,0,0,0.03), inset 1px 1px 1px 1px rgba(0,0,0,0.05);
+    border: 1px solid #fff;
+}
+#toggledown, #toggleup, #toggleup-2, #hiremeleiste, .xtrenner, .emblem-schwarz, .emblem-herz, .emblem-hirn, .ornament, .ornamentleft, #languageswitch2 a span, #languageswitch2 a:hover span, #languageswitch2 .active span, #logo a, .tweetalot, #searchform #s, #togglesearchform #s, #modalsearchform #s, #logosub a, .es-nav span, .es-nav span.es-nav-next, .more, #closenotice, .blogsection .leiste1, .blogsection .leiste2 {
+    background-image: url(../pagina/images/spr-home4.png);
+}
+.ornament, .ornamentleft {
+    background-position: -3410px 0px;
+}
+.ornament {
+    height: 9px;
+    width: 65px;
+    margin: 50px auto;
+    display: block;
+    opacity: 0.6;
+}
+h4.about, h6.about, .blogsection h5 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #f45353;
+    word-spacing: 3px;
+}
+h3.about, h4.about, h5.about, h3.home {
+    color: #444;
+    text-align: center;
+    width: 100%;
+    display: block;
+    word-spacing: 8px;
+    font-size: 4.5em;
+}
+h4.about, h6.about {
+    font-size: 3em;
+    letter-spacing: 2px !important;
+}
+h3.about {
+    text-shadow: 1px 1px 0px #fff, 2px 2px 0px #ddd;
+    letter-spacing: 1px !important;
+}
+.contactformcontainer {
+    margin-bottom: 50px;
+    float: left;
+    display: block;
+}
+.row {
+    max-width: 1180px;
+    min-width: 727px;
+    margin: 0 auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+#content {
+    margin-top: 2em;
+    padding-bottom: 0em;
+    position: relative;
+    top: 2em;
+    margin-bottom: 3em;
+}
+.row, .clearfix {
+    zoom: 1;
+}
+.row {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+#contactform p, #contactform p label {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px !important;
+}
+#contactform label {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #999;
+}
+form label {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-bottom: 9px;
+}
+#contactform .seven {
+    margin-left: 0;
+    height: 300px;
+    margin-bottom: 35px;
+}
+.row .seven.columns {
+    width: 56.5%;
+}
+.column, .columns {
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+#contactform .five {
+    margin-right: 0;
+    height: 300px;
+}
+.row .five.columns {
+    width: 39.1%;
+}
+#contactform #senden:hover, #contactform #senden:focus, #commentform #submit:hover, #commentform #submit:focus {
+    background-color: #fcb612;
+    cursor: pointer;
+    border: 1px solid #CE2929;
+    background: #fcb612;
+    border: 1px solid #fcb612;
+    -webkit-box-shadow: -1px -1px 0px #fff, 1px 1px 0px rgba(255,255,255,0.6), 0 1px 5px rgba(0,0,0,0.05), 0 0px 20px rgba(0,0,0,0.15), inset 1px 1px 0 0px rgba(255,255,255,0.3), inset 0px 30px 14px 0px rgba(255,255,255,0.04), inset -1px -1px 0 0px rgba(0,0,0,0.1), inset 0px -10px 10px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: -1px -1px 0px #fff, 1px 1px 0px rgba(255,255,255,0.6), 0 1px 5px rgba(0,0,0,0.05), 0 0px 20px rgba(0,0,0,0.15), inset 1px 1px 0 0px rgba(255,255,255,0.3), inset 0px 30px 14px 0px rgba(255,255,255,0.04), inset -1px -1px 0 0px rgba(0,0,0,0.1), inset 0px -10px 10px 0px rgba(0,0,0,0.05);
+    box-shadow: -1px -1px 0px #fff, 1px 1px 0px rgba(255,255,255,0.6), 0 1px 5px rgba(0,0,0,0.05), 0 0px 20px rgba(0,0,0,0.15), inset 1px 1px 0 0px rgba(255,255,255,0.3), inset 0px 30px 14px 0px rgba(255,255,255,0.04), inset -1px -1px 0 0px rgba(0,0,0,0.1), inset 0px -10px 10px 0px rgba(0,0,0,0.05);
+}
+#contactform #senden, #commentform #submit, .wpcf7-submit {
+    -webkit-appearance: none;
+    background: #FDC133;
+    margin: 0;
+    width: 40%;
+    margin: 0 auto;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #fff;
+    transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .3s ease-out;
+    font-size: 1em;
+    cursor: pointer;
+    border: 0px solid #333;
+    -webkit-box-shadow: 0px 0px 1px rgba(255,255,255,0.3), 0px 0px 2px rgba(0,0,0,0.05), 2px 2px 2px rgba(0,0,0,0.05), 0px 0px 10px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px 0px 1px rgba(255,255,255,0.3), 0px 0px 2px rgba(0,0,0,0.05), 2px 2px 2px rgba(0,0,0,0.05), 0px 0px 10px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 1px rgba(255,255,255,0.3), 0px 0px 2px rgba(0,0,0,0.05), 2px 2px 2px rgba(0,0,0,0.05), 0px 0px 10px rgba(0,0,0,0.05);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fec53d;
+    border: 1px solid #fec53d;
+    -webkit-box-shadow: -1px -1px 0px rgba(255,255,255,0.5), 1px 1px 1px rgba(255,255,255,0.1), 0 1px 5px rgba(0,0,0,0.05), 0 0px 20px rgba(0,0,0,0.10), inset 1px 1px 0 0px rgba(255,255,255,0.5), inset 0px 10px 10px 0px rgba(255,255,255,0.1), inset -1px -1px 0 0px rgba(255,255,255,0.1), inset 0px -10px 10px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: -1px -1px 0px rgba(255,255,255,0.5), 1px 1px 1px rgba(255,255,255,0.1), 0 1px 5px rgba(0,0,0,0.05), 0 0px 20px rgba(0,0,0,0.10), inset 1px 1px 0 0px rgba(255,255,255,0.5), inset 0px 10px 10px 0px rgba(255,255,255,0.1), inset -1px -1px 0 0px rgba(255,255,255,0.1), inset 0px -10px 10px 0px rgba(0,0,0,0.05);
+    box-shadow: -1px -1px 0px rgba(255,255,255,0.5), 1px 1px 1px rgba(255,255,255,0.1), 0 1px 5px rgba(0,0,0,0.05), 0 0px 20px rgba(0,0,0,0.10), inset 1px 1px 0 0px rgba(255,255,255,0.5), inset 0px 10px 10px 0px rgba(255,255,255,0.1), inset -1px -1px 0 0px rgba(255,255,255,0.1), inset 0px -10px 10px 0px rgba(0,0,0,0.05);
+}
+.xtrenner {
+    background-position: -558px -1064px;
+}
+#toggledown, #toggleup, #toggleup-2, #hiremeleiste, .xtrenner, .emblem-schwarz, .emblem-herz, .emblem-hirn, .ornament, .ornamentleft, #languageswitch2 a span, #languageswitch2 a:hover span, #languageswitch2 .active span, #logo a, .tweetalot, #searchform #s, #togglesearchform #s, #modalsearchform #s, #logosub a, .es-nav span, .es-nav span.es-nav-next, .more, #closenotice, .blogsection .leiste1, .blogsection .leiste2 {
+    background-image: url(../images/spr-home4.png);
+}v
+.xtrenner {
+    width: 100%;
+    height: 30px;
+    clear: both;
+    margin: 2em 0;
+    display: block;
+}
+
+#cont_direct
+{
+    padding: 0;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cont_direc h3
+{
+    color :#000;
+    font-weight: normal !important;
+    font-size: 30px;
+    line-height: 1.25;
+    text-shadow: 1px 1px 0px #fff, 2px 2px 0px #ddd;
+    letter-spacing: 1px !important;
+    padding: 20px 0;
+}
+.cont_direc p
+{
+    color :#000;
+    font-weight: normal !important;
+    text-shadow: 1px 1px 0px #fff, 2px 2px 0px #ddd;
+    letter-spacing: 1px !important;
+    padding-top: 7px;
+    font-size: 22px;
+}
+.bloqcontac
+{
+    display: inline-block;
+}
+.bloqcontac img
+{
+    float: left;
+    width: 40px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align:  top;
+}
+#cont1 {
+    max-width: 1100px;
+}
+#cont5 {
+    background: url(../images/bg-paper.jpg) 50% 50%;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.6);
+    -webkit-box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.6);
+    -moz-box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.6);
+}

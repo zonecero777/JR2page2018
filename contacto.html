@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es_Es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<title>Jesus Rey de Reyes</title>
+	<link rel="stylesheet" href="css/estilo1.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link href='css/style.css' type='text/css' rel='stylesheet' media='all' />
+	<script type='text/javascript' src='js/jquery.js'></script>
+</head>
+<body id="body">
+	<section class="portada portada-b portada-c">
+		<header id="header" class="header contenedor">
+			<div class="contenedor-nav">
+				<figure class="logotipo">
+					<img src="images/logotipo2.png" alt="" width="85px">
+				</figure>
+				<span id="burguer-button" class="burguer-button icon-menu"></span>
+				<nav  class="menu" id="menu"> <!-- menu -->
+					<ul>
+						<li><a href="index.html">INICIO</a></li>
+						<li><a href="galeria.html">GALERIA</a></li>
+						<li><a href="catalogo.html">CATALOGO</a></li>
+						<li><a href="https://www.tiendaonline.jr2moda.com/" target="_blank">TIENDA ONLINE</a></li>
+						<li><a href="locales.html">LOCALES</a></li>
+						<li><a href="contacto.html" style="text-decoration:underline;">CONTACTO</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	</section>
+	<section id="cont1" class="wrap" style="padding:0;">
+		<section id="cont5">
+		<section class="row" id="contactform">
+			<div class="twelve contactformcontainer">
+
+			<hgroup class="twelve columns">	
+			<h3 class=" about">Contactanos</h3>
+			<h4 class="  about">JR2</h4>
+			<h5 class="ornament"></h5>
+			</hgroup>
+			<div class="wpcf7" id="wpcf7-f3119-t1-o1">
+				<form action="mail.php" method="post">
+					<div style="display: none;">
+					<input type="hidden" name="_wpcf7" value="3119">
+					<input type="hidden" name="_wpcf7_version" value="3.3.3">
+					<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3119-t1-o1">
+					<input type="hidden" name="_wpnonce" value="5924cfa3e1">
+					</div>
+					<div class="seven columns">
+					<p><label>Mensaje </label><span class="wpcf7-form-control-wrap your-message"><textarea name="mensaje" id="nachricht" class="wpcf7-form-control  wpcf7-textarea wpcf7-validates-as-required cf7-nachricht" cols="40" rows="10" placeholder="Escribir Aquí"></textarea></span> </p>
+					</div>
+					<div class="five columns">
+						<p>
+							<label>Nombre* </label>
+							<span class="wpcf7-form-control-wrap your-name">
+								<input type="text" name="nombre" id="name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required cf7-input" size="40" placeholder="Escribir Nombre">
+							</span> 
+						</p>
+						<p>
+							<label>Correo* </label>
+							<span class="wpcf7-form-control-wrap your-email">
+								<input type="text" name="email" id="email" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email cf7-email" size="40" placeholder="ejempo@correo.com">
+							</span>
+						</p>
+						<p>
+							<label></label>
+							<input type="submit" value="Enviar" id="senden" name="submit">
+						</p>
+					</div>
+					<div class="wpcf7-response-output wpcf7-display-none"></div>
+				</form>
+			</div>                                        
+			</div>  
+        </section>
+        	<div id="cont_direct">
+				<div class="cont_direc">
+					<div class="bloqcontac">
+					</div>
+					<div class="bloqcontac">
+					</div>
+				</div>
+			</div>
+		</section>
+		</section>
+	</body>
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+	</style>
+	<footer id="footer">
+		<section class="wrapp-footer">
+			<div>
+				<img src="images/logotipo2.png" alt="" width="100px">
+			</div>
+			<div>
+				<p>Copyright © 2017 Azure Studio. All Rights Reserved</p>
+			</div>
+			<div class="redes-sociales">
+				<div>
+					<a href="https://www.facebook.com/JR2-147611265581433/?fref=ts" target="_blank"><img src="images/face-icon.svg" alt=""></a>
+				</div>
+				<div>
+					<a href="https://www.instagram.com/jr2.moda/" target="_blank"><img src="images/inst-icon.svg" alt=""></a>
+				</div>
+				<div>
+					<a href=""><img src="images/youtube-icon.svg" alt=""></a>
+				</div>
+			</div>
+		</section>
+		<script>
+			var $burguerButton = document.getElementById('burguer-button');
+			var $menu = document.getElementById('menu');
+
+			$burguerButton.addEventListener('touchstart', toggleMenu);
+
+      		function toggleMenu(){
+        		$menu.classList.toggle('active')
+      		};
+		</script>
+	</footer>
+</html>

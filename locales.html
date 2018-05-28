@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es_Es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<title>JR2 | UBICANOS</title>
+		<!-- Script-->
+
+		<!-- link  estilos-->
+		<link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+        <link href='css/style.css' type='text/css' rel='stylesheet' media='all' />
+        <link rel="shortcut icon" href="images/favicon.png">
+
+		<!--estilos ligthbox-->
+    	<link href="css/jquery.lightbox.css" type="text/css" rel="stylesheet" />
+
+		<!--jQuery-->
+	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	    <script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+
+		<!--Links -->
+		
+		<script>
+	   $(document).ready(function(e) {
+		    $('a[data-lightbox-gallery]').iLightbox({
+                type: 'image', //'image', 'inline', 'ajax', 'iframe', 'swf' and 'html'
+                loop: true,
+                arrows: true,
+                closeBtn: true,
+                title: null,
+                href: null,
+                content: null,
+                beforeShow: function(a, b){ },
+                onShow: function(a, b){ },
+                beforeClose: function(){ },
+                afterClose: function(){ },
+                onUpdate: function(a){ },
+            });
+       });
+	</script>
+
+	
+	</head>
+	<body id="body">
+    <section class="portada portada-b">
+        <header id="header" class="header contenedor">
+            <div class="contenedor-nav">
+                <figure class="logotipo">
+                    <img src="images/logotipo2.png" alt="" width="85px">
+                </figure>
+                <span id="burguer-button" class="burguer-button icon-menu"></span>
+                <nav  class="menu" id="menu"> <!-- menu -->
+                    <ul>
+                        <li><a href="index.html" style="text-decoration:underline;">INICIO</a></li>
+                        <li><a href="galeria.html">GALERIA</a></li>
+                        <li><a href="catalogo.html">CATALOGO</a></li>
+                        <li><a href="https://www.tiendaonline.jr2moda.com/" target="_blank">TIENDA ONLINE</a></li>
+                        <li><a href="locales.html">LOCALES</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <section class="wrap ubicanos" style="padding: 0;">
+        <h3>LOCAL : JR2</h3>
+        <div class="cont-ubicanos-a">
+            <div>
+                <img src="images/localbogota.jpg" alt="">
+            </div>
+            <div>
+                <p>
+                    Dirección : Bogota 3345 Local 1. <br>
+                    Telefono : (011) 15-3092-2950 <br>
+                    Floresta (Avellaneda) <br>
+                    Capital Federal <br>
+                    Buenos Aires <br>
+                    Correo : info@jr2moda.com    
+                <p>
+            </div>
+        </div>
+        <h3>LOCAL : JR2</h3>
+        <div class="cont-ubicanos-b">
+            <div>
+                <p>
+                    Dirección : Cuenca 224. <br>
+                    Telefono : (011) 11-3092-2950 <br>
+                    Floresta (Avellaneda) <br>
+                    Capital Federal <br>
+                    Buenos Aires <br>
+                    Correo : info@jr2moda.com     
+                <p>
+            </div>
+            <div>
+                <img src="images/localcuenca.jpg" alt="">
+            </div>
+        </div>
+        <iframe class="iframe" src="https://www.google.com/maps/d/embed?mid=1V3mNkwPX96Zc81TKVfjIxbr1Om8" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+	</body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+    </style>
+    <footer id="footer">
+        <section class="wrapp-footer">
+            <div>
+                <img src="images/logotipo2.png" alt="" width="100px">
+            </div>
+            <div>
+                <p>Copyright © 2017 Azure Studio. All Rights Reserved</p>
+            </div>
+            <div class="redes-sociales">
+                <div>
+                    <a href="https://www.facebook.com/JR2-147611265581433/?fref=ts" target="_blank"><img src="images/face-icon.svg" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/jr2.moda/" target="_blank"><img src="images/inst-icon.svg" alt=""></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/youtube-icon.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <script>
+            var $burguerButton = document.getElementById('burguer-button');
+            var $menu = document.getElementById('menu');
+
+            $burguerButton.addEventListener('touchstart', toggleMenu);
+
+            function toggleMenu(){
+                $menu.classList.toggle('active')
+            };
+        </script>
+    </footer>
+</html>
