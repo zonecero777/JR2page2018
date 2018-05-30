@@ -450,9 +450,10 @@ body{
   font-weight: 500;
 }
 .titulo h1{
+  color:#242736;
   text-align: center;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 35px;
   margin: 0;
   padding: 15px 0;
