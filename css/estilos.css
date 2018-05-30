@@ -528,6 +528,9 @@ a{
   height:650px;
   width:1200px;
 }
+.wrapp_clientes{
+
+}
 @media screen and (max-width: 1300px){
   .wrapp_iframe{
     width: 1000px;
