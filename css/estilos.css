@@ -532,6 +532,7 @@ a{
 .wrapp_clientes{
   width: 100%;
   margin:auto;
+  background: url(../images/bg-paper.jpg);
 }
 .wrapp_comentarios{
   align-items: center;
@@ -541,13 +542,22 @@ a{
   justify-content: center;
 }
 .titulo_clientes{
-  margin: 0 auto;
+  background: #e52d27;
+  box-shadow: 0px 0px 7px 2px #848484;
+  -webkit-box-shadow: 0px 0px 7px 2px #848484;
   font-size: 25px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 .titulo_clientes h2,h3{
-  color: #404040;
+  margin: 0;
+  padding: 0;
+}
+.titulo_clientes h2,h3{
+  color: #fff;
   font-weight: 600;
   text-align: center;
+  padding: 5px 0;
 }
 .comentarios{
   align-items: center;
@@ -558,12 +568,15 @@ a{
   padding: 13px;
   text-align: center;
   width: 47%;
-  background: #e4cfcf;
+  background: #FF2AE5;
   border-radius: 10px;
   margin: 15px;
 }
 .comen_nombre{
   width: 30%;
+  /* BACKGROUND: RED; */
+  COLOR: white;
+  /* FONT-SIZE: 59PX; */
 }
 .comen_nombre p{
   font-weight: 600;
@@ -571,16 +584,19 @@ a{
 }
 .comen_nombre img{
   border-radius: 50%;
-  background: #ffa4a4;
-  border: solid 3px #f66;
+  background: #f6f6f6;
+  border: solid 3px #2c2e3c;
+}
+.comen_nombre p{
+  font-size: 20px;
 }
 .comen_escrito{
   width: 68%;
 }
 .comen_escrito p{
   font-family: cursive;
-  font-size: 18px;
-  color: #404040;
+  font-size: 20PX;
+  color: #ffffff;
   font-weight: 500;
 }
 @media screen and (max-width: 1300px){

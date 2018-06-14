@@ -102,7 +102,6 @@ h3.about {
     letter-spacing: 1px !important;
 }
 .contactformcontainer {
-    margin-bottom: 50px;
     float: left;
     display: block;
 }
@@ -266,7 +265,4 @@ form label {
 #cont5 {
     background: url(../images/bg-paper.jpg) 50% 50%;
     text-align: center;
-    box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.6);
-    -webkit-box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.6);
-    -moz-box-shadow: 0px 1px 10px rgba(128, 128, 128, 0.6);
 }
