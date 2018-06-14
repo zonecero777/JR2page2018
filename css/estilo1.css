@@ -107,7 +107,7 @@ h3.about {
 }
 .row {
     max-width: 1180px;
-    min-width: 727px;
+    min-width: 400px;
     margin: 0 auto;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -126,6 +126,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .row {
     max-width: 1180px;
     margin: 0 auto;
+    height: 595px;
 }
 #contactform p, #contactform p label {
     margin: 0;
@@ -220,49 +221,48 @@ form label {
     margin: 2em 0;
     display: block;
 }
-
-#cont_direct
-{
-    padding: 0;
-    width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-}
-.cont_direc h3
-{
-    color :#000;
-    font-weight: normal !important;
-    font-size: 30px;
-    line-height: 1.25;
-    text-shadow: 1px 1px 0px #fff, 2px 2px 0px #ddd;
-    letter-spacing: 1px !important;
-    padding: 20px 0;
-}
-.cont_direc p
-{
-    color :#000;
-    font-weight: normal !important;
-    text-shadow: 1px 1px 0px #fff, 2px 2px 0px #ddd;
-    letter-spacing: 1px !important;
-    padding-top: 7px;
-    font-size: 22px;
-}
-.bloqcontac
-{
-    display: inline-block;
-}
-.bloqcontac img
-{
-    float: left;
-    width: 40px;
-    margin: 0 auto;
-    text-align: center;
-    vertical-align:  top;
-}
 #cont1 {
     max-width: 1100px;
 }
 #cont5 {
     background: url(../images/bg-paper.jpg) 50% 50%;
     text-align: center;
+}
+@media screen and (max-width: 770px){
+    .row{
+        height: 477px;
+    }
+}
+@media screen and (max-width: 700px){
+    .row .seven.columns {
+        width: 80%;
+    }
+    .row .five.columns {
+        width: 80%;
+    }
+    .formularioContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 5px 0;
+    }
+    #contactform .seven{
+        height: auto;   
+        padding-bottom: 12px;
+        margin-bottom:0px;
+    }
+    h3.about, h4.about {
+        font-size: 50px;
+    }
+    .row{
+        height: 720px;
+    }
+    #contactform textarea {
+        height: auto;
+    }
+    #contactform input, #contactform textarea, #commentform input, #commentform textarea {
+        width: 100%;
+    }
 }

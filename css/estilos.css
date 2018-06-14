@@ -574,9 +574,8 @@ a{
 }
 .comen_nombre{
   width: 30%;
-  /* BACKGROUND: RED; */
-  COLOR: white;
-  /* FONT-SIZE: 59PX; */
+  color: white;
+  font-size: 40px;
 }
 .comen_nombre p{
   font-weight: 600;
@@ -598,6 +597,7 @@ a{
   font-size: 20PX;
   color: #ffffff;
   font-weight: 500;
+  margin: 0;
 }
 @media screen and (max-width: 1300px){
   .wrapp_iframe{
@@ -631,6 +631,15 @@ a{
   }
 }
 @media screen and (max-width: 1010px){
+  .comentarios{
+    width: 87%;
+  }
+  .comen_escrito p{
+    font-size: 23px;
+  }
+  .comen_nombre p{
+    font-size: 22px;
+  }
   .Dletra1{
     font-size: 40px;
     padding: 5px 0 0 0;
@@ -717,9 +726,6 @@ a{
   #main a img {
     padding: 0;
   }
-  #cont_direct {
-    width: 768px;
-  }
   .column, .columns {
     margin: 0;
   }
@@ -728,16 +734,6 @@ a{
   }
   #contactform #senden, #commentform #submit, .wpcf7-submit {
     width: 45%;
-  }
-  .bloqcontac img {
-    float: none;
-    width: 60px;
-  }
-  .bloqcontac {
-    width: 45%;
-  }
-  .cont_direc p {
-    padding: 0;
   }
   .medioarriba{
     flex-direction: column;
