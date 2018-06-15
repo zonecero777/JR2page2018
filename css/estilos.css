@@ -593,7 +593,6 @@ a{
   width: 68%;
 }
 .comen_escrito p{
-  font-family: cursive;
   font-size: 20PX;
   color: #ffffff;
   font-weight: 500;
@@ -767,9 +766,22 @@ a{
   }
 }
 @media screen and (max-width: 500px) {
+  .comentarios {
+    flex-direction: column;
+  }
+  .comen_nombre {
+    width: 100%;
+  }
+  .comen_escrito {
+    padding: 5px 10px;
+    width: 100%;
+  }
   .cont-ubicanos-b{
     text-align: center;
     flex-direction: column;
+  }
+  .wrapp-footer{
+    text-align: center;
   }
   .cont-ubicanos-b p{
     font-weight: 500;
