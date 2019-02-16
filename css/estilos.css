@@ -351,7 +351,7 @@ body{
 }
 .izquierda {
   align-content: center;
-  background: #f1f1f1;
+  background: #fffb44;
   display: flex;
   font-family: monospace;
   font-size: 24px;
@@ -374,20 +374,26 @@ body{
   width: 48%;
 }
 .derecha2 {
-  background: #98165A;
+  display: flex;
+  flex-direction: column;
+  background: #ff0097;
   width: 48%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .derecha2 p{
   color: #fff;
 }
 .derecha2 a{
   padding: 7px;
-  border: #fff solid 1px;
-  color: #fff;
+  border: #f3ff19 solid 1px;
+  color: #f0ff20;
   font-size: 25px;
   text-decoration:none;
 }
 .Dletra1{
+  letter-spacing: 12px;
   font-size: 40px;
   margin:15px 0;
 }
@@ -398,9 +404,7 @@ body{
 }
 .Dletra3{
   font-size: 20px;
-  font-family: monospace;
   font-weight: 500;
-  margin: auto;
   padding: 3px 0 18px 0;
   letter-spacing: 4px;
   line-height: 27px;
@@ -480,7 +484,7 @@ body{
 }
 .cajaLarga{
   width: 100%;
-  background: rgb(206, 27, 121);
+  background: #ff0097;
 }
 .cajaLarga2{
   display: flex;
@@ -522,7 +526,7 @@ a{
   background: #ebd5bd;
   text-align: center;
   margin: 0 auto;
-  padding: 56px 0;  
+  padding:56px 0 30px 0;
   width: 100%;
 }
 .wrapp_iframe{
@@ -593,10 +597,23 @@ a{
   width: 68%;
 }
 .comen_escrito p{
-  font-size: 20PX;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 500;
   margin: 0;
+}
+.nuevaTemp{
+  color : #fff;
+  font-size: 25px;
+  letter-spacing: 16px;
+
+}
+.linkdescarga{
+  padding-top:20px;
+}
+.linkdescarga a{
+  font-size: 25px;
+  color: #ff57ab;
 }
 @media screen and (max-width: 1300px){
   .wrapp_iframe{
